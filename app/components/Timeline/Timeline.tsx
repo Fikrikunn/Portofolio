@@ -39,13 +39,13 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
     >
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
         <h2 className="text-lg md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
-          Work Experience
+        My Tech Journey
         </h2>
         <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm">
-          Ini adalah berbaagai showcase dan perjalanan saya dalam dunia
-          teknologi. Setiap langkah dalam perjalanan ini telah membentuk saya menjadi
-          seorang yang lebih baik dan memberikan wawasan berharga.
-        </p>
+  This is a collection of showcases and my journey in the world of technology.  
+  Every step along the way has shaped me into a better individual and provided valuable insights.
+</p>
+
       </div>
 
       <div ref={ref} className="relative max-w-7xl mx-auto pb-20">
