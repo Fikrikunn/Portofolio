@@ -28,18 +28,3 @@ body {
   }
 }
 
-/* Smooth scrolling */
-html {
-  scroll-behavior: smooth;
-}
-
-/* Prevent layout shift */
-html, body {
-  overflow-x: hidden;
-}
-
-/* Better image rendering */
-img {
-  max-width: 100%;
-  height: auto;
-}
