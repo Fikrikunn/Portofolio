@@ -88,6 +88,43 @@ export default function Home() {
             </div>
 
           </div>
+
+          {/* Project Card 3 */}
+          <div className="bg-white dark:bg-neutral-800 rounded-2xl shadow-[0_4px_20px_rgba(0,0,0,0.05)] overflow-hidden transition-transform transform hover:scale-[1.03] hover:shadow-lg">
+            <Image
+              src="/images/project/Movie-hub.png"
+              alt="Movie Hub AI"
+              className="w-full h-48 object-cover"
+              width={500}
+              height={500}
+            />
+            <div className="p-5">
+              <h3 className="text-xl font-semibold text-neutral-800 dark:text-neutral-100 mb-2">🎥 Movie-Hub AI</h3>
+              <p className="text-sm text-neutral-600 dark:text-neutral-300 mb-4">
+              Movies Hub AI adalah sebuah platform berbasis web yang memungkinkan pengguna untuk mencari, menjelajah, dan menemukan film dengan lebih mudah, cepat, dan personal. Website ini menggunakan teknologi Artificial Intelligence (AI) untuk merekomendasikan film, Pengguna bisa menemukan film sesuai keinginan mereka baik berdasarkan mood mereka maupun genre yg dicari.
+              </p>
+              <div className="flex flex-wrap gap-2">
+                <Link
+                  href="https://movies-hub-ai.web.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block px-4 py-2 text-sm font-medium bg-green-600 text-white rounded-md hover:bg-green-800 hover:scale-105 transition-transform duration-200"
+                >
+                  🚀 Visit Site
+                </Link>
+                <Link
+                  href="https://github.com/H8-FSJS-P2S6/ip-Fikrikunn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block px-4 py-2 text-sm font-medium bg-gray-800 text-white rounded-md hover:bg-gray-700 hover:scale-105 transition-transform duration-200"
+                >
+                  💻 View Code
+                </Link>
+              </div>
+            </div>
+
+          </div>
+
           {/* Additional Project Card */}
           <div className="bg-white dark:bg-neutral-800 rounded-2xl shadow-[0_4px_20px_rgba(0,0,0,0.05)] overflow-hidden transition-transform transform hover:scale-[1.03] hover:shadow-lg">
             <div className="p-5">
@@ -120,7 +157,7 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1 px-3 py-1.5 rounded-md bg-green-100 text-green-700 hover:bg-green-200 hover:text-green-800 transition-all duration-300 shadow-sm font-medium hover:scale-105 hover:rotate-[-1deg]"
-              ><span>- Transcripts</span>
+              ><span>- Transcripts (click me)</span>
               </Link>
             </div>
             <div className="flex items-center gap-2 text-xs md:text-sm text-neutral-700 dark:text-neutral-300 mt-2">
@@ -129,7 +166,7 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1 px-3 py-1.5 rounded-md bg-green-100 text-green-700 hover:bg-green-200 hover:text-green-800 transition-all duration-300 shadow-sm font-medium hover:scale-105 hover:rotate-[-1deg]"
-              ><span>- E-Certificate</span>
+              ><span>- E-Certificate (click me)</span>
               </Link>
             </div>
 
